@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Encabezado */
+  
+  header {
+    background-color: #f78da7;
+    padding: 15px; /* Increased padding */
+    height: 70px; /* Optional larger header height */
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Agregar tarea */
+  
+  .agregar-tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Increased padding */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .agregar-tarea input {
+    width: 90%; /* Wider input field */
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .agregar-tarea button {
+    background-color: #f78da7;
+    color: #fff;
+    padding: 10px 15px; /* Larger button */
+    border: 1px solid #f78da7;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Lista de tareas */
+  
+  .lista-tareas {
+    padding: 15px; /* Increased padding */
+  }
+  
+  .lista-tareas h2 {
+    font-size: 20px; /* Larger font size */
+    margin-bottom: 10px;
+  }
+  
+  .lista-tareas ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lista-tareas li {
+    padding: 10px; /* Increased padding */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .lista-tareas input {
+    margin-right: 10px;
+  }
+  
+  .lista-tareas label {
+    cursor: pointer;
+  }
